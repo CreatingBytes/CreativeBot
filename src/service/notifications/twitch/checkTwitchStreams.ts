@@ -11,7 +11,7 @@ interface LiveStream {
 const liveStreams = new Map<string, LiveStream>();
 
 export async function checkTwitchStreams() {
-    const twitchUsernames = ['sL3in3x', 'Groganovic', 'Doctorio', 'GnduGun', 'Bepisssed', 'xny1337', 'DonTubee', 'Naguura'];
+    const twitchUsernames = ['sL3in3x', 'Groganovic'];
     console.log('Checking Twitch streams at:', new Date().toISOString());
 
     for (const username of twitchUsernames) {
