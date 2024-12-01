@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { Client, Collection, ActivityType, Interaction, GuildMember, PermissionsBitField } from "discord.js";
 import { ExtendedClient, Command } from './utils/types/types';
+import {initializeInviteHandler} from "./service/inviteLink/inviteHandler";
 
 
 const client: ExtendedClient = new Client({
@@ -21,6 +22,8 @@ client.on("ready", () => {
         }],
         status: "online"
     });
+
+    initializeInviteHandler(client).catch(console.error);
 })
 
 
