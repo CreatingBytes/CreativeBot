@@ -1,0 +1,20 @@
+# All Node spezific Files
+node_modules/
+
+# Production-Build Files and Folders
+dist/
+build/
+
+# All the Log Files
+logs/
+
+# Some Evironment Variables
+src/config/.env
+.env.local
+.env.*.local
+
+# IDE-Specific Files and Folders
+.idea/
+.vscode/
+*.swp
+.DS_Store
