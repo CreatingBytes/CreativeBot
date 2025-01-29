@@ -1,9 +1,9 @@
 import { Client, GuildMember } from 'discord.js';
 
 const inviteRoleMap = new Map<string, string>([
-    ["TKDZFp2yhf", "675092817365958717"],  // Default-User
-    ["6mFhyGhT9j", "1075009606029414400"], // Groganovic
-    ["Fz3usxAt9j", "1075032301269958677"], // sL3in3x
+    ["TKDZFp2yhf", "675092817365958717"],  // User Default
+    ["6mFhyGhT9j", "1075009606029414400"], // User 1
+    ["Fz3usxAt9j", "1075032301269958677"], // User 2
 ]);
 
 const invitesCache = new Map<string, string>();
